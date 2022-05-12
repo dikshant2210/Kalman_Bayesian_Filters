@@ -3,4 +3,7 @@ project(Kalman_Bayesian_Filters)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Kalman_Bayesian_Filters main.cpp)
+add_executable(Kalman_Bayesian_Filters main.cpp
+        astar.cpp
+        astar.h
+        gh_filter.cpp)
